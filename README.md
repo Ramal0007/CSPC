@@ -26,3 +26,10 @@ Create the environment for a given lab:
 - Vectorized operations in NumPy drastically outperform standard Python loops for large dataset simulations.
 - Creating isolated environments ensures code reproducibility across different machines without dependency conflicts.
 - Writing unit tests guarantees that refactoring to NumPy maintains physical and mathematical correctness.
+## PW1 --- Lab B
+
+### Results
+The observed data showed an exponential decay over time. The observed points closely followed the theoretical exponential decay curve, confirming that the experimental data matches the analytical law.
+
+### Workflow Automation
+The Snakemake pipeline automates the generation of the decay plot (`figure.png`) by tracking dependencies (`decay_observed.csv` and `plot.py`) and executing the Python script only when necessary.
